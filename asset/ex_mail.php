@@ -40,10 +40,10 @@ function sendMail($x) {
     $mail->SMTPSecure = 'tls';
      
     $mail->From = 'evifanwar12@gmail.com'; // Email disamakan saja
-    $mail->FromName = 'Monitoring ITCN3';
+    $mail->FromName = 'Monitoring KOMINFO';
     $mail->addAddress('evifanwar12@gmail.com', 'Ghost'); // Target email
      
-    $mail->addReplyTo('evifanwar12@gmail.com', 'Monitoring ITCN3'); // isi saja sama seperti email yg anda gunakan untuk mengirim
+    $mail->addReplyTo('evifanwar12@gmail.com', 'Monitoring KOMINFO'); // isi saja sama seperti email yg anda gunakan untuk mengirim
      
     $mail->WordWrap = 50;
     $mail->isHTML(true);

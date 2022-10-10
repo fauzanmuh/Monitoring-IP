@@ -32,21 +32,21 @@ function sendMail($x) {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'monitoring.itcn3@gmail.com';
-    $mail->Password = 'th3Phoenix';
+    $mail->Username = 'evifanwar12@gmail.com';
+    $mail->Password = 'pancetae123';
     $mail->SMTPSecure = 'tls';
      
-    $mail->From = 'monitoring.itcn3@gmail.com';
-    $mail->FromName = 'Monitoring ITCN3';
-    $mail->addAddress('rizal.drawrs@gmail.com', 'Rizal');
+    $mail->From = 'evifanwar12@gmail.com';
+    $mail->FromName = 'Monitoring KOMINFO';
+    $mail->addAddress('mufauzan18@gmail.com', 'Fauzan');
      
-    $mail->addReplyTo('monitoring.itcn3@gmail.com', 'Monitoring ITCN3');
+    $mail->addReplyTo('evifanwar12@gmail.com', 'Monitoring KOMINFO');
      
     $mail->WordWrap = 50;
     $mail->isHTML(true);
 
     $mail->Subject = 'Report : '.$title.'';
-    $mail->Body    = "<b>Laporan Monitoring Jaringan PT.KAI</b><br>$log";
+    $mail->Body    = "<b>Laporan Monitoring Jaringan DISKOMINFO KOTA MALANG</b><br>$log";
     if(!$mail->send()) {
        echo 'Message could not be sent.';
        echo 'Mailer Error: ' . $mail->ErrorInfo;
@@ -73,7 +73,7 @@ function routeUrl(){
         $aktif = 1;
         $pantau = 1;
         $notif = 'true';
-        $judul = "IT3CN";
+        $judul = "KOMINFO";
         $halaman = "./view/beranda.php";
       } elseif (strcmp($page, "client")==0) {
         $aktif = 1;
