@@ -1,8 +1,4 @@
-<?php ####################################################
-#
-#          Simple Network Monitoring
-#      Rizal Khilman - fb.me/rizal.ofdraw
-#           codinger-mini.blogspot.com
+<?php
 #########################################################
 #
 #       log ini menampilkan laporan pengirimah email 
@@ -56,7 +52,7 @@ $query_l = $conn->query($sql_l);
   </table>
   </form>
   <div class="box-body" style="right: 50px" align="right">
- <a href="report/cetak.php" target="_blank"><button class="btn btn-warning" type="submit" onclick="alert('Cetak Laporan');">Cetak</button>
+ <a href="report/cetak.php" target="_blank"><button class="btn btn-warning" type="submit" onclick="alert('Cetak Laporan');"><i class="fa fa-print"> Cetak</i></button>
     </div>
 </div>
 

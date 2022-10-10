@@ -9,7 +9,7 @@ $pdf->AddPage();
 // setting jenis font yang akan digunakan
 $pdf->SetFont('Arial','B',16);
 // mencetak string 
-$pdf->Cell(190,7,'DISKOMINFO KABUPATEN CIREBON',0,1,'C');
+$pdf->Cell(190,7,'DISKOMINFO KOTA MALANG',0,1,'C');
 $pdf->SetFont('Arial','B',12);
 $pdf->Cell(190,7,'LAPORAN HASIL MONITORING JARINGAN',0,1,'C');
  
