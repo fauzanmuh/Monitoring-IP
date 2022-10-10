@@ -60,13 +60,13 @@ while ($ambil = $query->fetch_assoc()) {
                           </div>
                           <br />
                           <br />
-                          <a href="./add_stasiun" title="Add Server">Add Server</a>
+                          <a href="./add_stasiun" title="Add Server">Tambah Server</a>
                         </div>
                       </div>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary" name="edit_client">Save changes</button>
+                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal"><i class="fa fa-times-circle"> Batal</i></button>
+                    <button type="submit" class="btn btn-primary" name="edit_client"><i class="fa fa-save"> Simpan</i></button>
                     </form>
                   </div>
                 </div><!-- /.modal-content -->
