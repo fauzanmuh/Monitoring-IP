@@ -142,8 +142,8 @@ while ($ambil = $query->fetch_assoc()) {
                       <!-- / Form edit sampai sini -->
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary" name="edit_stasiun">Save changes</button>
+                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal"><i class="fa fa-times-circle"> Batal</i></button>
+                    <button type="submit" class="btn btn-primary" name="edit_stasiun"><i class="fa fa-save"> Simpan</i></button>
                     </form>
                   </div>
                 </div><!-- /.modal-content -->
