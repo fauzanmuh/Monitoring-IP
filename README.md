@@ -17,11 +17,15 @@ Dengan website IPAM dapat mengelola IP jaringan di Kota Malang.
 - Halaman Monitoring NCC
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/monitoring_NCC.png)
 - Halaman info server monitoring NCC
-![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/Info_server.png)
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/lnfo_server.png)
 - Halaman setting server monitoring NCC
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/setting_server.png)
 - Halaman monitoring customers
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/monitoring_customers.png)
+- Halaman info server monitoring customers
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/info_customers.png)
+- Halaman setting server monitoring customers
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/setting_customers.png)
 
 ## The Accounts on this Program :
 User : admin@gmail.com
