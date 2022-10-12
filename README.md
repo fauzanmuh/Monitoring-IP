@@ -9,9 +9,12 @@ Dengan website IPAM dapat mengelola IP jaringan di Kota Malang.
 
 ## Screenshot Program
 - Halaman Login
-![](https://github.com/fauzanmuh/IPAM-MalangKota/raw/master/ss/login.PNG)
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/login.PNG)
 - Halaman Dashboard
-![](https://github.com/fauzanmuh/IPAM-MalangKota/raw/master/ss/beranda.PNG)
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/beranda.PNG)
+- Halaman List Server
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/listServer.PNG)
+
 ## The Accounts on this Program :
 User : admin@gmail.com
 Pwd : admin
