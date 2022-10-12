@@ -26,6 +26,12 @@ Dengan website IPAM dapat mengelola IP jaringan di Kota Malang.
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/info_customers.png)
 - Halaman setting server monitoring customers
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/setting_customers.png)
+- Halaman WIFI SARPAS APTIKA
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/monitoring_wifi.png)
+- Halaman info server monitoring wifi sarpas aptika
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/info_wifi.png)
+- Halaman setting monitoring wifi sarpas aptika
+![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/setting_wifi.png)
 
 ## The Accounts on this Program :
 User : admin@gmail.com
