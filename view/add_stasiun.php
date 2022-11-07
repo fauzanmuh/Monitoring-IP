@@ -5,31 +5,31 @@
                       <div class="box-body">
                         <form class="form-horizontal" method="post" action="./asset/proses.php">
                       <div class="form-group">
-                        <label for="inputName" class="col-sm-2 control-label">Nama Server</label>
+                        <label for="inputName" class="col-sm-2 control-label">Nama Router</label>
                         <div class="col-sm-10">
                           <div class="input-group">
                             <div class="input-group-addon">
                               <i class="fa fa-rss"></i>
                             </div>
-                            <input type="text" class="form-control" name="name_st" placeholder="Nama Server" required>
+                            <input type="text" class="form-control" name="name_st" placeholder="Nama Router" required>
                           </div><!-- /.input group -->
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="inputTelp" class="col-sm-2 control-label">Telp Server</label>
+                        <label for="inputTelp" class="col-sm-2 control-label">Telp Router</label>
                         <div class="col-sm-10">
                           <div class="input-group">
                             <div class="input-group-addon">
                               <i class="fa fa-phone"></i>
                             </div>
-                            <input type="text" class="form-control" name="telp_st" data-inputmask="&quot;mask&quot;: &quot;(999) 999-9999&quot;" data-mask="" required>
+                            <input type="text" class="form-control" name="telp_st" data-inputmask="&quot;mask&quot;: &quot;(9999) 999-9999&quot;" data-mask="" required>
                           </div><!-- /.input group -->
                         </div>
                       </div>
                       <div class="form-group">
                         <label for="inputAdd" class="col-sm-2 control-label">Alamat</label>
                         <div class="col-sm-10">
-                          <textarea class="form-control" name="add_st" rows='10' placeholder='Alamat Server' required></textarea>
+                          <textarea class="form-control" name="add_st" rows='10' placeholder='Alamat Router' required></textarea>
                         </div>
                       </div>
                       

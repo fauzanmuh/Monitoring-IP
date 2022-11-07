@@ -7,8 +7,8 @@
 ?>
 <ul class="nav nav-tabs">
   <li class="active"><a href="#tab-monitoring" data-toggle="tab" aria-expanded="false">Monitoring</a></li>
-  <li class=""><a href="#stasiun-info" data-toggle="tab" aria-expanded="true">Info Server</a></li>
-  <li class=""><a href="#stasiun-sett" data-toggle="tab" aria-expanded="false">Edit Info Server</a></li>
+  <li class=""><a href="#stasiun-info" data-toggle="tab" aria-expanded="true">Info Router</a></li>
+  <li class=""><a href="#stasiun-sett" data-toggle="tab" aria-expanded="false">Edit Info Router</a></li>
 </ul>
 <div class="tab-content">
   <div class="tab-pane active" id="tab-monitoring">
@@ -24,7 +24,7 @@
           ?>
     <div class="panel-body">
         <ul>
-            <li>Nama Server : <strong><?php echo $name_blok; ?></strong></li>
+            <li>Nama Router : <strong><?php echo $name_blok; ?></strong></li>
             <li>Alamat : <strong><?php echo $add_blok; ?></strong></li>
             <li>Telp : <strong>+<?php echo $telp_blok; ?></strong></li>
             <li>Jumlah PC : <strong><?php echo $total_pc; ?> PC</strong></li>

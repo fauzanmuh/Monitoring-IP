@@ -10,7 +10,7 @@
 ?>
 <ul class="nav nav-tabs">
   <li class="active"><a href="#tab-monitoring" data-toggle="tab" aria-expanded="false">Monitoring</a></li>
-  <li class=""><a href="#stasiun-info" data-toggle="tab" aria-expanded="true">Info Server</a></li>
+  <li class=""><a href="#stasiun-info" data-toggle="tab" aria-expanded="true">Info Router</a></li>
   <li class=""><a href="#stasiun-sett" data-toggle="tab" aria-expanded="false">Setting</a></li>
 </ul>
 <div class="tab-content">
@@ -27,7 +27,7 @@
           ?>
     <div class="panel-body">
         <ul>
-            <li>Nama Server : <strong><?php echo $name_blok; ?></strong></li>
+            <li>Nama Router : <strong><?php echo $name_blok; ?></strong></li>
             <li>Alamat : <strong><?php echo $add_blok; ?></strong></li>
             <li>Telp : <strong>+<?php echo $telp_blok; ?></strong></li>
             <li>Jumlah PC : <strong><?php echo $total_pc; ?> PC</strong></li>
@@ -45,7 +45,7 @@
     </button>
     <button class='btn btn-success btn-sm' onclick="window.location.href='./asset/proses.php?make_pusat=<?php echo $id_blok; ?>'">
         <i class='glyphicon glyphicon-plus'></i>
-         Jadikan Server Utama
+         Jadikan Router Utama
     </button>
   </div><!-- /.tab-pane -->
 </div><!-- /.tab-content -->
@@ -59,7 +59,7 @@ include 'modal.php';
               <div class="box box-solid">
                 <div class="box-header with-border">
                   <i class="fa fa-list"></i>
-                  <h3 class="box-title">Daftar Server</h3>
+                  <h3 class="box-title">Daftar Router</h3>
                 </div><!-- /.box-header -->
                 <div class="box-body">
                   <ul class="list-unstyled" style="margin-left:10px;">';

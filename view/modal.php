@@ -38,7 +38,7 @@ while ($ambil = $query->fetch_assoc()) {
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-sm-2" for="stasiun">Server:</label>
+                        <label class="control-label col-sm-2" for="stasiun">Router:</label>
                         <div class="col-sm-10">
                          <div class="input-group">
                             <div class="input-group-addon">
@@ -60,7 +60,7 @@ while ($ambil = $query->fetch_assoc()) {
                           </div>
                           <br />
                           <br />
-                          <a href="./add_stasiun" title="Add Server">Tambah Server</a>
+                          <a href="./add_stasiun" title="Add Server">Tambah Router</a>
                         </div>
                       </div>
                   </div>
@@ -98,7 +98,7 @@ while ($ambil = $query->fetch_assoc()) {
  ?>
  
                                 
-<!-- Modal edit info stasiun -->
+<!-- Modal edit info Server -->
 <div class="modal fade" id="editSt">
               <div class="modal-dialog">
                 <div class="modal-content">
@@ -112,18 +112,18 @@ while ($ambil = $query->fetch_assoc()) {
                   <form class="form-horizontal" role="form" style="width:100%" method="post" action="./asset/proses.php">
                   <input type="hidden" name="id_st" value="<?php echo "$id_blok"; ?>">
                       <div class="form-group">
-                        <label for="inputName" class="col-sm-2 control-label">Nama Server</label>
+                        <label for="inputName" class="col-sm-2 control-label">Nama Router</label>
                         <div class="col-sm-10">
                           <div class="input-group">
                             <div class="input-group-addon">
                               <i class="fa fa-train"></i>
                             </div>
-                            <input type="text" value="<?php echo $name_blok; ?>" class="form-control" name="name_st" placeholder="Nama Server" required>
+                            <input type="text" value="<?php echo $name_blok; ?>" class="form-control" name="name_st" placeholder="Nama Router" required>
                           </div><!-- /.input group -->
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="inputTelp" class="col-sm-2 control-label">Telp Server</label>
+                        <label for="inputTelp" class="col-sm-2 control-label">Telp Router</label>
                         <div class="col-sm-10">
                           <div class="input-group">
                             <div class="input-group-addon">
@@ -158,7 +158,7 @@ while ($ambil = $query->fetch_assoc()) {
                     <h4 class="modal-title">Anda yakin ingin menghapus <strong><?php echo "$name_blok"; ?></strong> ?</h4>
                   </div>
                   <div class="modal-body">
-                    <p>Semua data client dengan nama stasiun <strong><?php echo "$name_blok"; ?></strong> juga akan dihapus.</p>
+                    <p>Semua data client dengan nama Router <strong><?php echo "$name_blok"; ?></strong> juga akan dihapus.</p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" onclick="window.location.href='./asset/proses.php?del_st=<?php echo $id_blok; ?>';" class="btn btn-outline">Hapus</button>
