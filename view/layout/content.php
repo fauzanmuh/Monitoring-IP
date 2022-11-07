@@ -54,7 +54,7 @@ date_default_timezone_set("Asia/Jakarta");
         $halaman = "./view/add_client.php";
       } elseif (strcmp($page, "add_stasiun")==0) {
         ########################
-        # SETTING TAMBAH SERVER
+        # SETTING TAMBAH ROUTER
         ########################
         function showNotif() {
           if (isset($_GET['st'])) {
@@ -78,11 +78,11 @@ date_default_timezone_set("Asia/Jakarta");
         }
         $notif = 'true';
         $pantau = 0;
-        $judul = "Tambah Server";
+        $judul = "Tambah Router";
         $halaman = "./view/add_stasiun.php";
       } elseif (strcmp($page, "stasiun")==0) {
         ########################
-        # SETTING TAMPIL STASIUN
+        # SETTING TAMPIL ROUTER
         ########################
         
         function showNotif() {
@@ -128,7 +128,7 @@ date_default_timezone_set("Asia/Jakarta");
         $halaman = "./view/stasiun.php";
       } elseif (strcmp($page, "katasandi")==0) {
         ########################
-        # SETTING TAMBAH Server
+        # SETTING TAMBAH ROUTER
         ########################
         function showNotif() {
           if (isset($_GET['st'])) {

@@ -28,7 +28,7 @@ if (isset($_POST['login'])) {
 	header("location:../home");
 }
 elseif (isset($_SESSION['admin'])) {
-	// Tambahh stasiun
+	// Tambahh Router
 	if (isset($_POST['add_stasiun'])) {
 		$stasiun = mysqli_real_escape_string($conn, $_POST['name_st']);
 		$kd_telp = mysqli_real_escape_string($conn, $_POST['kd_telp_st']);
@@ -123,7 +123,7 @@ elseif (isset($_SESSION['admin'])) {
 			header("location:../stasiun&id=$id_blok&st=5");
 		}
 	}
-	// Edit Stasiun
+	// Edit Router
 	elseif (isset($_POST['edit_stasiun'])) {
 		$id_st = mysqli_real_escape_string($conn, $_POST['id_st']);
         $stasiun = mysqli_real_escape_string($conn, $_POST['name_st']);
@@ -148,7 +148,7 @@ elseif (isset($_SESSION['admin'])) {
         }
         $conn->close();
     }  
-    //Delete Stasiun dan semua isi client
+    //Delete Router dan semua isi client
     elseif (isset($_GET['del_st'])) {
 		$id_blok = mysqli_real_escape_string($conn, $_GET['del_st']);
 		$sql_blok = "DELETE FROM blok WHERE id_blok=?";
@@ -186,7 +186,7 @@ elseif (isset($_SESSION['admin'])) {
 			header("location:../log&st=3");
 		}
 	}
-   //  Menjadikan Stasiun default
+   //  Menjadikan Router default
 	elseif (isset($_GET['make_pusat'])) {
 		$id_st = mysqli_real_escape_string($conn, $_GET['make_pusat']);
 		$sql_p1 = "UPDATE blok SET pusat_client=?";
