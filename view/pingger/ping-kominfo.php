@@ -1,11 +1,4 @@
 <?php
-####################################################
-#
-#          Simple Network Monitoring
-#      Rizal Khilman - fb.me/rizal.ofdraw
-#           codinger-mini.blogspot.com
-#
-####################################################
 include '../../lib/db/dbconfig.php';
 $d_blok=$conn->query("SELECT (id_blok) FROM blok WHERE pusat_client='1'")->fetch_assoc();
 $id_st = $d_blok['id_blok'];

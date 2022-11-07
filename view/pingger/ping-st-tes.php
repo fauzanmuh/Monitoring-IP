@@ -1,11 +1,4 @@
 <?php
-####################################################
-#
-#          Simple Network Monitoring
-#      Rizal Khilman - fb.me/rizal.ofdraw
-#           codinger-mini.blogspot.com
-#
-####################################################
 include '../../lib/db/dbconfig.php';
 $id_st = mysqli_real_escape_string($conn, $_GET['id']);
 $limit = 5; // Jumlah ip yang akan ditampilkan per-halaman
