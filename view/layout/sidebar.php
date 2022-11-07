@@ -3,7 +3,7 @@
     $d_blokx=$conn->query("SELECT (name_blok) FROM blok WHERE pusat_client='1'")->fetch_assoc();
     $nama_blok = $d_blokx['name_blok']; // Kantor Pusat
     $link = array("home", "stasiun", "#", "#");
-    $nama = array("$nama_blok", "List Server", "Monitoring", "Pengaturan");
+    $nama = array("$nama_blok", "List Router", "Monitoring", "Pengaturan");
     $icon = array("fa fa-rss", "fa fa-list","fa fa-sitemap", "fa fa-wrench");
     for ($i=0; $i <= count($link)-1 ; $i++) { 
       // Logika di bawah berfungsi menentukan link yg aktif
@@ -21,13 +21,13 @@
         $right_icon = "<i class='fa fa-angle-left pull-right'></i>";
         $menu_d = "<ul class='treeview-menu'>
         <li>
-            <a class='active' href='./add_stasiun'>Add Server</a>
+            <a class='active' href='./add_stasiun'>Add Router</a>
         </li>
         <li>
             <a class='active' href='./add_client'>Add Client</a>
         </li>
         <li>
-            <a class='active' href='./log'>Log Laporan </a>
+            <a class='active' href='./log'>Log Laporan</a>
         </li>
         <!-- <li>
             <a href='./asset/proses.php?logout'>Logout</a>
