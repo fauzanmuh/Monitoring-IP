@@ -16,21 +16,21 @@ Dengan website IPAM dapat mengelola IP jaringan di Kota Malang.
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/listServer.PNG)
 - Halaman Monitoring NCC
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/monitoring_NCC.png)
-- Halaman info server monitoring NCC
+- Halaman Info Server Monitoring NCC
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/lnfo_server.png)
-- Halaman setting server monitoring NCC
+- Halaman Setting Server Monitoring NCC
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/setting_server.png)
-- Halaman monitoring customers
+- Halaman Monitoring Customers
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/monitoring_customers.png)
-- Halaman info server monitoring customers
+- Halaman Info Server Monitoring Customers
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/info_customers.png)
-- Halaman setting server monitoring customers
+- Halaman Setting Server Monitoring Customers
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/setting_customers.png)
 - Halaman WIFI SARPAS APTIKA
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/monitoring_wifi.png)
-- Halaman info server monitoring wifi sarpas aptika
+- Halaman Info Server Monitoring WIFI Sarpas APTIKA
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/info_wifi.png)
-- Halaman setting monitoring wifi sarpas aptika
+- Halaman Setting Server Monitoring WIFI Sarpas APTIKA
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/setting_wifi.png)
 - Halaman Pengaturan Tambah Server
 ![](https://github.com/fauzanmuh/Monitoring-IP/raw/master/ss/pengaturan_tambahserver.png)
@@ -41,6 +41,7 @@ Dengan website IPAM dapat mengelola IP jaringan di Kota Malang.
 
 ## The Accounts on this Program :
 User : admin@gmail.com
+
 Pwd : admin
 
 Thank you, Good Luck ... 😁
