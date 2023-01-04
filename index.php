@@ -1,11 +1,4 @@
 <?php 
-####################################################
-#
-#          Simple Network Monitoring
-#      Rizal Khilman - fb.me/rizal.ofdraw
-#           codinger-mini.blogspot.com
-#
-####################################################
     session_start();
     include './lib/db/dbconfig.php';
     //include './lib/db/functions.php';

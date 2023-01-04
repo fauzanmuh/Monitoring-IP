@@ -32,7 +32,7 @@
       <div class="login-box-body">
       <?php 
                         if (isset($_GET['log']) == 2) {
-                            echo "<div class='alert alert-danger'><strong>Login gagal, Silahkan coba kembali.</strong></div>";
+                            echo "<div class='alert alert-danger'><strong>Login gagal, Silahkan cek email / password.</strong></div>";
                         }
                          ?>
         <p class="login-box-msg">Login to start your session</p>

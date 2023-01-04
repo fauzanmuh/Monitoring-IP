@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 12, 2022 at 04:29 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.4
+-- Generation Time: Nov 08, 2022 at 02:37 AM
+-- Server version: 10.4.25-MariaDB
+-- PHP Version: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -69,7 +69,7 @@ INSERT INTO `client` (`id_client`, `id_blok`, `ip_client`, `name_client`, `statu
 (30, 11, '10.73.1.1', 'PTP Router Distribusi', 'Connected'),
 (31, 11, '103.135.14.9', 'DMZ Public', 'Connected'),
 (32, 13, '10.8.9.2', 'Fauzan', 'Connected'),
-(33, 14, '192.168.216.108', 'Printer EPSON L1455', 'Connected');
+(33, 14, '192.168.216.15', 'Printer EPSON L1455', 'Connected');
 
 -- --------------------------------------------------------
 
@@ -92,7 +92,6 @@ CREATE TABLE `log` (
 INSERT INTO `log` (`id_log`, `id_client`, `date_log`, `hour_log`, `status_log`) VALUES
 (122, '28', '06 Oct 2022', '12', 0),
 (123, '29', '10 Oct 2022', '10', 0),
-(124, '34', '10 Oct 2022', '11', 0),
 (125, '31', '11 Oct 2022', '15', 0);
 
 -- --------------------------------------------------------
@@ -113,7 +112,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `email_user`, `pwd_user`, `name_user`) VALUES
-(1, 'admin@gmail.com', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'Admin');
+(1, 'admin@gmail.com', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'Admin'),
+(2, 'mufauzan18@gmail.com', '39adb8d1fba094029b87edf3f794b2e8dca196de', 'Fauzan'),
+(3, 'abdillahnavis43@gmail.com', '04ade2e3a4ce65c5ee0cbfa08dacc69e7d690176', 'Navis');
 
 --
 -- Indexes for dumped tables
@@ -169,7 +170,7 @@ ALTER TABLE `log`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_user` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

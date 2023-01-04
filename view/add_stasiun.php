@@ -22,7 +22,7 @@
                             <div class="input-group-addon">
                               <i class="fa fa-phone"></i>
                             </div>
-                            <input type="text" class="form-control" name="telp_st" data-inputmask="&quot;mask&quot;: &quot;(9999) 999-9999&quot;" data-mask="" required>
+                            <input type="text" class="form-control" name="telp_st" data-inputmask="&quot;mask&quot;: &quot;(9999) 999-999&quot;" data-mask="" required>
                           </div><!-- /.input group -->
                         </div>
                       </div>

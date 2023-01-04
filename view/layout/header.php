@@ -33,13 +33,13 @@ $admin_name = $admin['name_user'];
                   <li class="user-header">
                     <img src="asset/dist/img/mlgkucecwara.jpg" class="img-circle" alt="User Image">
                     <p>
-                      <?php echo $admin_name; ?> - Web Developer
+                      <?php echo $admin_name; ?> - Administrator
                       <small>Diskominfo Kota Malang</small>
                     </p>
                   </li>
                   <!-- Menu Body -->
                   
-                  <!-- Menu Footer-->
+                  <!-- Menu Header -->
                   <li class="user-footer">
                     <div class="pull-left">
                       <a href="katasandi" class="btn btn-default btn-flat">Ganti Password <i class="fa fa-key"></i></a>

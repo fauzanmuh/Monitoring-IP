@@ -96,9 +96,8 @@ while ($ambil = $query->fetch_assoc()) {
 
     }
  ?>
- 
-                                
-<!-- Modal edit info Server -->
+                               
+<!-- Modal edit info Router -->
 <div class="modal fade" id="editSt">
               <div class="modal-dialog">
                 <div class="modal-content">
@@ -139,7 +138,7 @@ while ($ambil = $query->fetch_assoc()) {
                           <textarea class="form-control" name="add_st" rows='10' placeholder='Alamat Server' required><?php echo "$add_blok"; ?></textarea>
                         </div>
                       </div>
-                      <!-- / Form edit sampai sini -->
+                      <!-- / Form edit - -->
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default pull-left" data-dismiss="modal"><i class="fa fa-times-circle"> Batal</i></button>
@@ -149,7 +148,7 @@ while ($ambil = $query->fetch_assoc()) {
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
             </div>
-<!-- / Modal delete info stasiun -->
+<!-- / Modal delete info Router -->
 <div class="modal modal-success fade" id="delSt">
               <div class="modal-dialog">
                 <div class="modal-content">

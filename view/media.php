@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Monitoring | Diskominfo</title>
+    <title>Monitoring IP | Diskominfo Kota Malang</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -49,9 +49,9 @@
         <!-- /#page-wrapper -->
         <footer class="main-footer">
         <div class="pull-right hidden-xs">
-          <b>Diskominfo</b> Malang
+          <b>Diskominfo</b> Kota Malang
         </div>
-        <strong>Copyright © <?php echo date("Y"); ?> <a href="#"></a>.</strong> POLINEMA.
+        <strong>Copyright © <?php echo date("Y"); ?> <a href="#"></a></strong>
       </footer>
     </div>
     <!-- /#wrapper -->
